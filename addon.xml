@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.berryflash" name="BerryFlash"	version="1.0.0" provider-name="xdatravelbug">
+
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+
+		<summary lang="de">Flashrom in Kodi benutzen</summary>
+		<summary lang="en">Use Flashrom in Kodi</summary>
+
+		<description lang="de">Plugin, um die Möglichkeit und eine GUI für Flashrom in Kodi zu installieren. Am Anfang wurde dieses Addon nur für Raspberry entwickelt, es kann aber generell für jede Kodiumgebung in Linux verwendet werden. Dieses Addon wurde getestet für...[CR]
+...Raspberry B mit xbmc 16 (Jarvis) über den GPIO-Port und mit einem WCH CH341A Programmierer[CR]...in Linux Lite (Ubuntu) mit einem WCH CH341A Programmierer</description>
+		<description lang="en">Plugin to install capability and a GUI for Flashrom in Kodi. In the beginning development was started for Raspberry only, but it can probably also be used in general for Kodi installed in any Linux environment. This addon was tested...[CR]
+...on Raspberry B with xbmc 16 (Jarvis) via GPIO port and with a WCH CH341A programmer[CR]...in Linux Lite (Ubuntu) with a WCH CH341A programmer</description>
+
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<language></language>
+
+		<disclaimer lang="de">Um dieses Addon über den GPIO-Port im Raspberry zu verwenden, bitte sicherstellen, daß SPI in config.txt über die Einstellung "dtparam=spi=on" aktiviert wurde.</disclaimer>
+		<disclaimer lang="en">When using this addon via the GPIO port on Raspberry, ensure that you enabled SPI in config.txt by setting/adding "dtparam=spi=on".</disclaimer>
+
+		<forum>forum.kodi.tv/showthread.php?tid=272150</forum>
+		<source>https://github.com/xdatravelbug/script.berryflash</source>
+		<email>ch_butz@web.de</email>
+	</extension>
+</addon>
