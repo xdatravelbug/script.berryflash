@@ -13,7 +13,9 @@ Features
 
 Screenshots
 -----------
-T.B.D.
+![BerryFlash Information](https://cloud.githubusercontent.com/assets/10100473/14942230/c735bf40-0fb6-11e6-9d16-0dab3901df2b.JPG)
+![BerryFlash Settings](https://cloud.githubusercontent.com/assets/10100473/14942231/c737dd98-0fb6-11e6-81cb-43d3b2a1c405.JPG)
+![BerryFlash Checking for chip](https://cloud.githubusercontent.com/assets/10100473/14942229/c732498c-0fb6-11e6-8a89-0911818baf53.JPG)
 
 
 Installation
