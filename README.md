@@ -26,7 +26,7 @@ See [http://kodi.wiki/view/HOW-TO:Install_an_Add-on_from_a_zip_file][1] for more
 
 Usage
 -----
-The TuneIn Radio add-on can be accessed from the Music Addons menu.
+The BerryFlash-addon can be accessed from the Program addons menu.
 
 
 Settings
