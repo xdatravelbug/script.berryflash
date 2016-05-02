@@ -1,5 +1,5 @@
-Flashrom for Kodi
-=====================
+BerryFlash (Flashrom for Kodi)
+==============================
 A plugin that allows you to use Flashrom from within Kodi.
 
 
